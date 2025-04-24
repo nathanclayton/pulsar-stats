@@ -26,12 +26,4 @@ tasks {
         archiveClassifier.set("fat")
         mergeServiceFiles()
     }
-
-    named("nativeBuild") {
-        dependsOn("build")
-    }
-
-    test {
-        exclude("**/org/example/app/**")
-    }
 }
