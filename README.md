@@ -17,3 +17,8 @@ To use:
 ```
 java -jar app/build/libs/app-fat.jar --server http://localhost:808 -f pulsar-stats.json
 ```
+
+## License
+This is licensed under the GPL v3
+
+The full text of the license should be in the `LICENSE` file.
